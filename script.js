@@ -7,19 +7,19 @@ let toValue = "";
 
 // const pattern = /^[a-zA-Z!@#$%^&*()_+.,/?'";:|=-]+$/;
 // const pattern = /^[0-9]+$/;
-let input = document.getElementsByTagName("input");
-const regex = /^\d+$/;
+// let input = document.getElementsByTagName("input");
+// const regex = /^\d+$/;
 // const isMatch = pattern.test(input.value);
 
 fromUnit.addEventListener('click', () => {
     // isMatch = pattern.test(input.value);
     fromValue = fromUnit.value;
     toValue = toUnit.value;
-    input = document.getElementsByTagName("input");
-    if (!regex.test(input)) {
-        alert("Please enter a proper value");
-        fromInput.value = "";
-    }
+    // input = document.getElementsByTagName("input");
+    // if (!regex.test(input)) {
+    //     alert("Please enter a proper value");
+    //     fromInput.value = "";
+    // }
     result = parseFloat(fromInput.value);
     // console.log("Type of isMatch: ", typeof(isMatch));
     // const isMatch = pattern.test(input.value);
@@ -58,11 +58,11 @@ toUnit.addEventListener('click', () => {
     // isMatch = pattern.test(input.value);
     fromValue = fromUnit.value;
     toValue = toUnit.value;
-    input = document.getElementsByTagName("input");
-    if (!regex.test(input)) {
-        alert("Please enter a proper value");
-        fromInput.value = "";
-    }
+    // input = document.getElementsByTagName("input");
+    // if (!regex.test(input)) {
+    //     alert("Please enter a proper value");
+    //     fromInput.value = "";
+    // }
     result = parseFloat(fromInput.value);
 
     if (fromValue == toValue) {
@@ -97,12 +97,12 @@ toUnit.addEventListener('click', () => {
 
 fromInput.addEventListener('keyup', () => {
 
-    input = document.getElementsByTagName("input");
-    if (regex.test(input)) {
-        alert("Please enter a proper value");
-        fromInput.value = "";
-        toInput.value = "";
-    }
+    // input = document.getElementsByTagName("input");
+    // if (regex.test(input)) {
+    //     alert("Please enter a proper value");
+    //     fromInput.value = "";
+    //     toInput.value = "";
+    // }
     result = parseFloat(fromInput.value);
     // isMatch = pattern.test(input.value);
     // console.log("Type of isMatch: ", isMatch);
