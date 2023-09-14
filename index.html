@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body class="flex-center">
+    <section id="container" class="flex">
+        <nav class="flex">
+            <ul class="flex">
+                <li id="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="M520-520v-80h200v80H520Zm0-160v-80h320v80H520ZM320-120q-83 0-141.5-58.5T120-320q0-48 21-89.5t59-70.5v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q38 29 59 70.5t21 89.5q0 83-58.5 141.5T320-120ZM200-320h240q0-29-12.5-54T392-416l-32-24v-280q0-17-11.5-28.5T320-760q-17 0-28.5 11.5T280-720v280l-32 24q-23 17-35.5 42T200-320Z" />
+                    </svg>
+                </li>
+                <li id="title">Temperature Converter</li>
+            </ul>
+        </nav>
+        <div class="boxes flex-center">
+            <select name="from" id="from">
+                <option value="kelvin">Kelvin</option>
+                <option value="celsius">Celsius</option>
+                <option value="fehrenheit">Fahrenheit</option>
+            </select>
+            <input type="text" name="temp" id="temp" placeholder="0" pattern="[0-9]" title="Enter Temperature here">
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30">
+            <path
+                d="M280-120 80-320l200-200 57 56-104 104h607v80H233l104 104-57 56Zm400-320-57-56 104-104H120v-80h607L623-784l57-56 200 200-200 200Z" />
+        </svg>
+        <div class="boxes flex-center">
+            <select name="to" id="to">
+                <option value="kelvin">Kelvin</option>
+                <option value="celsius">Celsius</option>
+                <option value="fehrenheit">Fahrenheit</option>
+            </select>
+            <input type="text" name="temp2" id="temp2" placeholder="0" pattern="[0-9]" title="Enter Temperature here">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

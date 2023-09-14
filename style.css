@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #202020;
+    height: 95vh;
+}
+
+/* utility classes */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Main container */
+#container {
+    position: relative;
+    background-color: black;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(65, 65, 65, 0.564);
+    align-items: center;
+    justify-content: center;
+}
+
+/* navbar */
+nav {
+    /* background-color: #97bbea; */
+    position: absolute;
+    top: 2rem;
+    left: 3.3rem;
+    width: 80%;
+    /* left: 0; */
+}
+
+li {
+    list-style: none;
+    margin: 0.5rem
+}
+
+ul {
+    width: 100%;
+}
+#logo{
+    /* background-color: bisque; */
+    width: 20%;
+    margin-top: 1rem;
+}
+
+#logo svg {
+    background-color: #1a73e8;
+    height: 90%;
+    width: 100%;
+    border-radius: 8px;
+    fill: white;
+}
+
+#title {
+    /* position: absolute; */
+    /* background-color: #1a73e8; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    width:70%;
+}
+
+/* Main Heading */
+/* #container h1 {
+    background-color: #97bbea;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    top: 2.5rem;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+} */
+
+/* Swapping Icon */
+#container > svg {
+    position: relative;
+    top: 5.1rem;
+    fill: white;
+    padding: 0.5rem 0.6rem;
+    border-radius: 5px;
+}
+
+/* Containers for from and to selections */
+.boxes {
+    /* background-color: rgba(127, 255, 212, 0.405); */
+    position: relative;
+    top: 4rem;
+    flex-direction: column;
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+}
+
+select {
+    background-color: transparent;
+    color: #1a73e8;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+select:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+option {
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+option:hover {
+    cursor: pointer;
+}
+
+input {
+    background: none;
+    border: 2px solid #1a73e8;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    width: 6vw;
+    text-align: center;
+    border-radius: 12px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+input:is(:focus) {
+    border: 2px solid #5086cd;
+}
