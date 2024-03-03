@@ -1,10 +1,8 @@
 # Temperature Unit Converter
-This is a website to convert the entered temperature into other unit.
+Convert one temperature unit into other.
 
 > Visit the website:
 > https://jaydev-dwivedi.github.io/Temperature-Unit-Converter/
-
-
 
 ## Key Features
  - Convert any unit into any other supported unit
