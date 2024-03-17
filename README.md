@@ -1,5 +1,5 @@
 # Temperature Unit Converter
-Convert one temperature unit into other.
+Converts one temperature unit into other.
 
 ## Key Features
  - Convert any unit into any other supported unit
